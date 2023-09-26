@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-image: url(./1.png);
+    background-position: center center;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#tic-tac-toe-board {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff3f3;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+td[data-cell="X"] {
+    font-weight: bold;
+    color: green;
+}
+
+td[data-cell="O"] {
+    color: #2196f3;
+    font-weight: bold;
+}
+.content{
+    margin-top: 10rem;
+}
